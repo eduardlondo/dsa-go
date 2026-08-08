@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	datastructures "dsa-go/data-structures"
+	"fmt"
+)
 
 func main() {
-    fmt.Println("Hello, World!")
+	arr := datastructures.NewDynamicArray[int](4)
+	fmt.Println(arr)
 }
